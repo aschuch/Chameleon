@@ -18,14 +18,19 @@ FOUNDATION_EXPORT const unsigned char ChameleonVersionString[];
 
 #import "Chameleon_.h"
 
+#import "UIColor+ChameleonPrivate.h"
+
+#import "NSArray+Chameleon.h"
+#import "UIColor+Chameleon.h"
+
+#if TARGET_OS_IOS
 #import "UIButton+Chameleon.h"
 #import "UILabel+Chameleon.h"
-#import "UIColor+ChameleonPrivate.h"
+
 #import "UIImage+ChameleonPrivate.h"
 #import "UIView+ChameleonPrivate.h"
 #import "UIAppearance+Swift.h"
 
-#import "NSArray+Chameleon.h"
-#import "UIColor+Chameleon.h"
 #import "UINavigationController+Chameleon.h"
 #import "UIViewController+Chameleon.h"
+#endif // TARGET_OS_IOS

@@ -65,6 +65,7 @@ public func ContrastColorOf(backgroundColor: UIColor, returnFlat: Bool) -> UICol
     return UIColor(contrastingBlackOrWhiteColorOn: backgroundColor, isFlat: returnFlat)
 }
 
+#if TARGET_OS_IOS
 /**
  Creates and returns a gradient as a color object with an alpha value of 1.0
  
@@ -77,6 +78,7 @@ public func ContrastColorOf(backgroundColor: UIColor, returnFlat: Bool) -> UICol
 public func GradientColor(gradientStyle: UIGradientStyle, frame: CGRect, colors: [UIColor]) -> UIColor {
     return UIColor(gradientStyle: gradientStyle, withFrame: frame, andColors: colors)
 }
+#endif // TARGET_OS_IOS
 
 public func HexColor(hexString: String, _ alpha: CGFloat = 1.0) -> UIColor {
     return UIColor(hexString: hexString, withAlpha: alpha)

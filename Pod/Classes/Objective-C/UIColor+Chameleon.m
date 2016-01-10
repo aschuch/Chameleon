@@ -470,6 +470,7 @@
     }
 }
 
+#if TARGET_OS_IOS
 + (UIColor *)colorWithGradientStyle:(UIGradientStyle)gradientStyle withFrame:(CGRect)frame andColors:(NSArray *)colors; {
     
     //Create our background gradient layer
@@ -557,6 +558,7 @@
             
     }
 }
+#endif // TARGET_OS_IOS
 
 + (UIColor *)colorWithHexString:(NSString *)string {
     

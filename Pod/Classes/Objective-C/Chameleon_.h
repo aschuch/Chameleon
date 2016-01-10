@@ -9,14 +9,17 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "ChameleonConstants.h"
 #import "ChameleonEnums.h"
 #import "ChameleonMacros.h"
 
 #import "NSArray+Chameleon.h"
 #import "UIColor+Chameleon.h"
+
+#if TARGET_OS_IOS
+#import "ChameleonConstants.h"
 #import "UINavigationController+Chameleon.h"
 #import "UIViewController+Chameleon.h"
+#endif // TARGET_OS_IOS
 
 @interface Chameleon : NSObject
 

@@ -557,6 +557,7 @@ typedef NS_ENUM (NSInteger, UIShadeStyle) {
 
 #pragma mark - Gradient Colors
 
+#if TARGET_OS_IOS
 /**
  *  Creates and returns a gradient as a color object with an alpha value of 1.0
  *
@@ -569,6 +570,7 @@ typedef NS_ENUM (NSInteger, UIShadeStyle) {
  *  @since 2.0
  */
 + (UIColor *)colorWithGradientStyle:(UIGradientStyle)gradientStyle withFrame:(CGRect)frame andColors:(NSArray *)colors;
+#endif // TARGET_OS_IOS
 
 #pragma mark - Colors from Hex Strings
 
