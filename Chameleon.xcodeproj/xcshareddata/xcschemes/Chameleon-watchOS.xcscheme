@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4D8F7ED71C429531001B6DEA"
-               BuildableName = "Chameleon-watchOS.framework"
+               BuildableName = "Chameleon.framework"
                BlueprintName = "Chameleon-watchOS"
                ReferencedContainer = "container:Chameleon.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D8F7ED71C429531001B6DEA"
-            BuildableName = "Chameleon-watchOS.framework"
+            BuildableName = "Chameleon.framework"
             BlueprintName = "Chameleon-watchOS"
             ReferencedContainer = "container:Chameleon.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D8F7ED71C429531001B6DEA"
-            BuildableName = "Chameleon-watchOS.framework"
+            BuildableName = "Chameleon.framework"
             BlueprintName = "Chameleon-watchOS"
             ReferencedContainer = "container:Chameleon.xcodeproj">
          </BuildableReference>
